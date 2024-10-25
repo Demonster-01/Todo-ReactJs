@@ -1,7 +1,14 @@
 import { useState } from "react";
-
+import "./App.css";
+import Header from "./components/Header";
+import Todo from "./components/Todo";
 function App() {
-  return <>Hii</>;
+  return (
+    <>
+      <Header />
+      <Todo />
+    </>
+  );
 }
 
 export default App;
